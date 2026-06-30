@@ -382,7 +382,7 @@ bantime  = 24h
 [recidive]
 enabled   = true
 backend   = systemd
-banaction = nftables-allports
+banaction = nftables-allports[blocktype=drop, chain_hook=prerouting, chain_priority=-190]
 bantime   = 1w
 findtime  = 5d
 maxretry  = 3
