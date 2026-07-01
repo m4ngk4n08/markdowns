@@ -1,8 +1,8 @@
-This technical document provides a detailed, production-grade architectural review of the security hardening, systems engineering, and network optimization implemented on your Ubuntu Server 24.04 LTS VPS [1, 2].
+Ubuntu Server 24.04 LTS VPS [1, 2].
 
 ---
 
-## Architectural Overview: Path B
+## Architectural Overview
 
 The system is configured in **Path B** [1]. This architecture is designed to serve a public-facing, sandboxed application directly on standard port **`22`** for frictionless developer access (`ssh angelodavales.info`), while completely isolating and hardening administrative operating system access on port **`43829`** [2, 3].
 
