@@ -4,7 +4,7 @@ Ubuntu Server 24.04 LTS VPS [1, 2].
 
 ## Architectural Overview
 
-The system is configured in **Path B** [1]. This architecture is designed to serve a public-facing, sandboxed application directly on standard port **`22`** for frictionless developer access (`ssh angelodavales.info`), while completely isolating and hardening administrative operating system access on port **`43829`** [2, 3].
+This architecture is designed to serve a public-facing, sandboxed application directly on standard port **`22`** for frictionless developer access (`ssh angelodavales.info`), while completely isolating and hardening administrative operating system access on port **`43829`** [2, 3].
 
 ```
                                   [ INTERNET ]
